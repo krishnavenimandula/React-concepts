@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.weather-app {
+  position: absolute;
+  border: 1px solid;
+  width: 450px;
+  height: 200px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.weather-app > input {
+  position: relative;
+  font-size: 22px;
+  width: 446px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+.result {
+  position: relative;
+  height: 119px;
+}
+
+.place {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.icon {
+  position: absolute;
+  border-radius: 10px;
+  top: 30px;
+  right: 20px;
+}
+.temperature {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.conditions {
+  position: absolute;
+  width: 446px;
+  top: 80px;
+  left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
